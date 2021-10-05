@@ -65,8 +65,8 @@ tba
 
 ## :clipboard: Status & To-Do List
 
-* Status: In work
-* To-Do: Complete.
+* Status: Working - displays data from GraphQL backend in Next.js frontend
+* To-Do: Add data and improve schema. Add documentation & comments
 
 ## :clap: Inspiration
 
