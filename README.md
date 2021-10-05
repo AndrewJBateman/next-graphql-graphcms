@@ -10,7 +10,7 @@
 
 ## :page_facing_up: Table of contents
 
-* [:zap: Next GraphQL-graphCMS](#zap-next-graphql-graphcms)
+* [:zap: Next GraphQL-GraphCMS](#zap-next-graphql-graphcms)
   * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
   * [:books: General Info](#books-general-info)
   * [:camera: Screenshots](#camera-screenshots)
@@ -24,8 +24,7 @@
 
 ## :books: General Info
 
-* GraphCMS
-* GraphQL
+* GraphCMS headless Content Management System (CMS) is used to create an API that can be accessed from the Next.js frontend using GraphQL
 * Next.js is for server-rendered react apps. It has automatic code splitting, simple page-based routing, built-in CSS support and hot reloading. Every component file in the pages folder is treated as a page
 
 ## :camera: Screenshots
@@ -40,15 +39,9 @@
 * [GraphQL Tag v2](https://www.npmjs.com/package/graphql-tag) utilities for parsing GraphQL queries
 * [Apollo v2](https://www.apollographql.com/) GraphQL implementation data graph layer
 * [Apollo Client v3](https://www.npmjs.com/package/apollo-client) fully-featured caching GraphQL client
-* [Apollo Server Micro v2](https://www.npmjs.com/package/apollo-server-micro) Micro integration for the Apollo community GraphQL Server.
+
 * [Next v11](https://nextjs.org/) minimalist framework for rendering react apps on the server.
 * [Next with Apollo v5](https://www.npmjs.com/package/next-with-apollo)
-* [Material-UI v4](https://www.npmjs.com/package/@material-ui/core) React components to save dev. time
-* [Node module isomorphic-unfetch v3](https://www.npmjs.com/package/isomorphic-unfetch) for unfetch & node-fetch for client & server.
-* [Node module Apollo Client v2](https://www.npmjs.com/package/apollo-client) caching GraphQL client to UI components can fetch data via GraphQL. More documentation [here](https://apollographql.com/docs/react/).
-* [Node module apollo-cache-inmemory v1](https://www.npmjs.com/package/apollo-cache-inmemory) normalized data store that supports all of Apollo Client 1.0's features without the dependency on Redux.
-* [Node module apollo-link-http](https://www.npmjs.com/package/apollo-link-http) to get GraphQL results over a network using HTTP fetch.
-* [Intl.NumberFormat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat) language-sensitive number formatting.
 
 ## :floppy_disk: Setup
 
