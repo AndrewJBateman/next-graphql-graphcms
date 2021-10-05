@@ -1,6 +1,7 @@
 import { gql } from "graphql-tag";
 import Head from "next/head";
 import client from "../apolloClient";
+import Link from "next/link"
 
 export default function Home({ streams }) {
 	console.log("streams", streams);
@@ -15,7 +16,7 @@ export default function Home({ streams }) {
 			<ul>
 				{streams.map((stream, i) => (
 					<li key={i}>
-						<a href={`/streams/${stream.slug}`}>{stream.title}</a>
+						<Link href={`/streams/${stream.slug}`}>{stream.title}</Link>
 					</li>
 				))}
 			</ul>
