@@ -6,12 +6,13 @@ export default function StreamPage({ stream }) {
 	return (
 		<div>
 			<h1>{stream.title}</h1>
-			{/* <img src={stream.coverImage.url} alt={`${stream.title} Cover Image'} /> */}
-			{<div dangerouslySetInnerHTML={{__html:stream.description.html}} />}
+			<img width="200" height="auto" src={stream.coverImage.url} alt="{`${stream.title} Cover Image'}" />
+			<div dangerouslySetInnerHTML={{ __html:stream.description.html }} />
 		</div>
-	);
+	)
 }
 
+// function to get slugs of titles that will be used in the Links to navigate to the stream detail page
 export async function getStaticPaths() {
 	const { data } = await client.query({
 		query: gql`
@@ -26,10 +27,12 @@ export async function getStaticPaths() {
 	const paths = streams.map((stream) => ({
 		params: { slug: [stream.slug] },
 	}));
-	console.log("paths: ", paths);
+	console.log("Here are the paths: ", paths); // [ { params: { slug: [Array] } }, { params: { slug: [Array] } } ]
 	return { paths, fallback: false };
 }
 
+// function to get full stream using unique slug
+// slug passed in as variable then stream returned where slug = input slug
 export async function getStaticProps({ params }) {
 	const slug = params.slug[0];
 	const { data } = await client.query({
@@ -45,6 +48,7 @@ export async function getStaticProps({ params }) {
 					guestName
 					description {
 						raw
+            html
 					}
 				}
 			}

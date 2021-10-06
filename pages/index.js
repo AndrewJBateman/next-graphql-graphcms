@@ -1,10 +1,10 @@
 import { gql } from "graphql-tag";
 import Head from "next/head";
-import client from "../apolloClient";
 import Link from "next/link"
 
+import client from "../apolloClient";
+
 export default function Home({ streams }) {
-	console.log("streams", streams);
 	return (
 		<div>
 			<Head>
@@ -24,6 +24,7 @@ export default function Home({ streams }) {
 	);
 }
 
+// function to return API data as props for HTML using GraphQL
 export async function getStaticProps() {
 	const { data } = await client.query({
 		query: gql`
