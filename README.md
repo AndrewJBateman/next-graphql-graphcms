@@ -10,7 +10,7 @@
 
 ## :page_facing_up: Table of contents
 
-* [:zap: Next GraphQL-GraphCMS](#zap-next-graphql-graphcms)
+* [:zap: Next GraphQL GraphCMS](#zap-next-graphql-graphcms)
   * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
   * [:books: General Info](#books-general-info)
   * [:camera: Screenshots](#camera-screenshots)
@@ -41,10 +41,9 @@
 * [React v17](https://reactjs.org/) Javascript library.
 * [GraphQL v15](https://github.com/graphql/graphql-js)
 * [GraphQL Tag v2](https://www.npmjs.com/package/graphql-tag) utilities for parsing GraphQL queries
-* [GraphCMS]()
+* [GraphCMS](https://graphcms.com/) production-ready Content API within minutes
 * [Apollo v2](https://www.apollographql.com/) GraphQL implementation data graph layer
 * [Apollo Client v3](https://www.npmjs.com/package/apollo-client) fully-featured caching GraphQL client
-
 * [Next v11](https://nextjs.org/) minimalist framework for rendering react apps on the server.
 * [Next with Apollo v5](https://www.npmjs.com/package/next-with-apollo)
 
