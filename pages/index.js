@@ -12,7 +12,7 @@ export default function Home({ streams }) {
 				<meta name="description" content="Example Stream" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<h1>Title Example</h1>
+			<h1 className="text-red-500">Title1 Example</h1>
 			<ul>
 				{streams.map((stream, i) => (
 					<li key={i}>
@@ -44,6 +44,7 @@ export async function getStaticProps() {
 			}
 		`,
 	});
+	console.log('data: ', data);
 	const { streams } = data;
 	return {
 		props: {
