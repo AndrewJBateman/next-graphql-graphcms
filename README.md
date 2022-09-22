@@ -1,6 +1,6 @@
 # :zap: Next GraphQL GraphCMS
 
-* A Next.js React app using Apollo GraphQL Client to fetch data from a GraphCMS API.
+* A Next.js React app using Apollo GraphQL Client to fetch data from a GraphCMS (Hygraph) API.
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/next-graphql-graphcms?style=plastic)
@@ -38,14 +38,12 @@
 ## :signal_strength: Technologies
 
 * [Node.js v14](https://nodejs.org/) javascript runtime using the [Chrome V8 engine](https://v8.dev/).
-* [React v17](https://reactjs.org/) Javascript library.
-* [GraphQL v15](https://github.com/graphql/graphql-js)
-* [GraphQL Tag v2](https://www.npmjs.com/package/graphql-tag) utilities for parsing GraphQL queries
+* [React v18](https://reactjs.org/) Javascript library.
+* [GraphQL v16](https://github.com/graphql/graphql-js)
 * [GraphCMS](https://graphcms.com/) production-ready Content API within minutes
 * [Apollo v2](https://www.apollographql.com/) GraphQL implementation data graph layer
 * [Apollo Client v3](https://www.npmjs.com/package/apollo-client) fully-featured caching GraphQL client
-* [Next v11](https://nextjs.org/) minimalist framework for rendering react apps on the server.
-* [Next with Apollo v5](https://www.npmjs.com/package/next-with-apollo)
+* [Next v12](https://nextjs.org/) minimalist framework for rendering react apps on the server.
 
 ## :floppy_disk: Setup
 
@@ -63,7 +61,7 @@ tba
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working - displays data from GraphCMS backend in Next.js frontend.
+* Status: Working - Basic. displays data from GraphCMS backend in Next.js frontend.
 * To-Do: Change image to next/image, Add data and change GraphQL schema to my blog. Add documentation & comments.
 
 ## :clap: Inspiration
