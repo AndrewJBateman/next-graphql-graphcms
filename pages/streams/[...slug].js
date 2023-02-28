@@ -1,12 +1,13 @@
 import gql from "graphql-tag";
 import React from "react";
 import client from "../../apolloClient";
+import Image from 'next/image'
 
 export default function StreamPage({ stream }) {
   return (
     <div>
       <h1 className="text-3xl text-cyan-500">{stream.title}</h1>
-      <img
+      <Image
         width="200"
         height="auto"
         src={stream.coverImage.url}
